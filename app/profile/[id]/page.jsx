@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 
-import Profile from '@components/profile';
+import Profile from '@components/Profile';
 
 // params being extracted as route parameter
 const UserProfile = ({ params }) => {
